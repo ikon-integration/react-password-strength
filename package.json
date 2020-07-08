@@ -1,5 +1,5 @@
 {
-  "name": "react-password-strength",
+  "name": "@ikonintegration/react-password-strength",
   "version": "2.4.0",
   "engines": {
     "node": ">6.11.1"
@@ -16,10 +16,6 @@
     "example": "./node_modules/.bin/webpack-dev-server --content-base example/",
     "start": "npm run example & npm run build-watch",
     "test": "./node_modules/karma/bin/karma start"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mmw/react-password-strength.git"
   },
   "keywords": [
     "react"

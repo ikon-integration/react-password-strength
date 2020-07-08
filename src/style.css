@@ -28,6 +28,19 @@
   transition: color 250ms ease-in-out;
   width: 15%;
 }
+.ReactPasswordStrength-strength-desc.vbutton {
+  position: absolute; top: 1px; right: 40px;
+}
+.ReactPasswordStrength-visibility-button {
+  color: transparent;
+  font-style: italic;
+  position: absolute; top: 1px; right: 0;
+  text-align: right;
+  transition: color 250ms ease-in-out;
+  width: 15%;
+  background-color: transparent;
+  border-style: none;
+}
 
 .ReactPasswordStrength.is-strength-0 .ReactPasswordStrength-strength-desc { color: #D1462F; }
 .ReactPasswordStrength.is-strength-1 .ReactPasswordStrength-strength-desc { color: #D1462F; }
