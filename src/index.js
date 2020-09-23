@@ -142,8 +142,8 @@ export default class ReactPasswordStrength extends Component {
           ref={ref => this.reactPasswordStrengthInput = ref}
           value={password}
         />
-        {this.props.enabledVisibityToogle && 
-          <button className={`${namespaceClassName}-visibility-button`} onClick={this.handlePasswordVisibilityToogle.bind(this)}> 
+        {this.props.enabledVisibityToogle &&
+          <button className={`${namespaceClassName}-visibility-button`} onClick={this.handlePasswordVisibilityToogle.bind(this)} tabIndex="-1">
             <img src={(this.state.passwordVisible ? HideIcon : ShowIcon)} alt="tooggle visibility"/>
           </button>
         }
